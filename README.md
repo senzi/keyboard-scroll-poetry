@@ -1,2 +1,49 @@
-# keyboard-scroll-poetry
-Generate plausible-looking but semantically meaningless Chinese sentences using tokenizer-level sampling.
+# 语境搭载滚动断裂滑行装置入口
+
+> 在语言已死的废墟上，随机打字就是反抗。
+
+## 🌀 项目简介
+
+这是一个用于生成“看似有意义、实际上没有”的中文文本工具。  
+它不会告诉你真理，但能在你懒得跟微博杠精讲道理时，  
+**用毫无逻辑的句子构建一面语言迷雾之墙。**
+
+背后的机制非常简单：  
+我们准备了一大批中文高频词组，打碎、重组、拼接，  
+输出一段“仿佛有语气、有结构、甚至还有点思辨意味”的句子，  
+但你细品：它什么也没说。它只是——**在说话**。
+
+### 🧠 应用场景包括但不限于：
+
+- 回复微博杠精
+- 打乱对话节奏
+- 表达情绪疲劳
+- 模拟语义崩坏
+- 给冷场对话续一口气
+
+## 🔗 Live Demo
+
+👉 [https://pseudo.closeai.moe](https://pseudo.closeai.moe)
+
+## 🧩 技术实现
+
+- 使用纯前端构建，无后端依赖
+- `lut.txt` 词库 → 自动生成 `lut.js`
+- 页面每次抽取 4 条伪句拼接展示
+- 支持刷新和复制
+
+## 🚀 快速使用
+
+```bash
+# 安装依赖（如使用 serve）
+npm install -g serve
+
+# 本地调试
+serve .
+````
+
+## 📄 License
+
+MIT License
+由 [senzi](https://github.com/senzi) 构建
+语言崩溃是暂时的，回避才是永恒的
