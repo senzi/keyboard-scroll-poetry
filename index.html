@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <title>语境搭载滚动断裂滑行装置入口</title>
+  <script type="module" src="./main.js" defer></script>
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      background: #f9f9fb;
+      margin: 0;
+    }
+
+    h1 {
+      margin-bottom: 40px;
+      font-size: 32px;
+    }
+
+    .card {
+      background: white;
+      padding: 24px 32px;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+      max-width: 600px;
+      font-size: 20px;
+      margin-bottom: 20px;
+    }
+
+    .btns {
+      display: flex;
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      border: none;
+      background: #4f46e5;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.2s ease;
+    }
+
+    button:hover {
+      background: #3730a3;
+    }
+
+    .notice {
+      color: green;
+      margin-top: 8px;
+      height: 1.2em;
+      font-size: 14px;
+    }
+
+    footer {
+      font-size: 14px;
+      color: #666;
+      margin-top: 24px;
+    }
+
+    a {
+      color: #4f46e5;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>语境搭载滚动断裂滑行装置入口</h1>
+  <div class="card" id="output">加载中...</div>
+  <div class="btns">
+    <button id="generate">再来一句</button>
+    <button id="copy">复制文本</button>
+  </div>
+  <div class="notice" id="notice"></div>
+  <footer>
+    <a href="https://github.com/senzi/keyboard-scroll-poetry" target="_blank">Github</a>
+    &nbsp;| MIT协议 | Vibe coding
+  </footer>
+</body>
+</html>
