@@ -20,7 +20,7 @@ function getRandomUnique(arr, count) {
 
 function generateSentence() {
   const [a, b, c, d] = getRandomUnique(LUT, 4);
-  return `${a} ${b}，${c} ${d}。`;
+  return `${a}${b}，${c}${d}。`;
 }
 
 function render() {
